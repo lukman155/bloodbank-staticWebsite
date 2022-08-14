@@ -1,0 +1,36 @@
+/*Boilerplate Styling*/
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+
+.header-container {
+    background-color: rgb(28, 28, 54);
+    display: flex;
+    flex-direction: column;
+    #align-items: center;
+    
+}
+
+.header {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    margin: 0 0px;
+    padding: 16px 16px;
+}
+
+.logo { 
+    
+}
+
+.links{
+    display: flex;
+    gap: 24px;
+}
+
+a{
+    text-decoration: dotted;
+    color:aliceblue;
+}
