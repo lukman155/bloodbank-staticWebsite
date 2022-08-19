@@ -1,36 +1,98 @@
-/*Boilerplate Styling*/
-h1, h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-
+a {
+    text-decoration: none;
+    
 }
 
-.header-container {
-    background-color: rgb(28, 28, 54);
-    display: flex;
-    flex-direction: column;
-    #align-items: center;
-    
+ul {
+    list-style: none;
+}
+.frontpage{
+    padding: ;
+    margin: 0px 200px;
+    ;
 }
 
 .header {
     display: flex;
-    gap: 16px;
     justify-content: space-between;
-    margin: 0 0px;
-    padding: 16px 16px;
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 
-.logo { 
-    
+.header-text {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
 }
 
-.links{
+.header-link {
     display: flex;
     gap: 24px;
 }
 
-a{
-    text-decoration: dotted;
-    color:aliceblue;
+.button {
+    background-color: darkblue; /* dark blue */
+    border: none;
+    border-radius: 16px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-width: 150px;
+  }
+  .ro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
+
+.header-img {
+    margin-top: 100px;
+    height: auto;
+    max-width: 400px;
+}
+section {
+    padding-bottom: 800px;
+}
+.secondpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.img1 {
+    width: 50%;
+    border: 5px rgba(71, 61, 139, 0.685) solid;
+    border-radius: 16px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+figure {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  figcaption {
+    background-color: white;
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: justify;
+  }
