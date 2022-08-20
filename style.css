@@ -1,15 +1,21 @@
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+
 a {
     text-decoration: none;
-    
+
 }
 
 ul {
     list-style: none;
 }
 .frontpage{
-    padding: ;
+    background-color: aqua; 
     margin: 0px 200px;
-    ;
+    padding: 12px 180px;
+    
 }
 
 .header {
@@ -46,6 +52,7 @@ ul {
   .ro {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
 
@@ -55,13 +62,15 @@ ul {
     max-width: 400px;
 }
 section {
-    padding-bottom: 800px;
+    padding-bottom: 200px;
 }
 .secondpage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px 200px;
+    background-color: beige;
 
 }
 
@@ -94,5 +103,65 @@ figure {
     color: black;
     font-style: italic;
     padding: 2px;
-    text-align: justify;
+    text-align: center;
+  }
+
+  .quotepage {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+
+  span {
+    align-self: flex-end;
+  }
+
+.bluebackground {
+    display: flex;
+
+    max-width: 800px;
+    border-radius: 40px;
+    padding: 100px 300px;
+    background-color: rgb(80, 133, 248);
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    color: aliceblue;
+    gap: 200px;
+}
+
+
+
+.invert-button {
+    background-color: white; /* dark blue */
+    border: none;
+    border-radius: 16px;
+    color: blue;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    max-width: 300px;
+  }
+  .centering{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .footer-section {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: black;
+    margin: auto 200px;
+
   }
